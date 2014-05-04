@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3515F0CB1913539E00CEE2A6 /* tile10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3515F0CA1913539E00CEE2A6 /* tile10.jpg */; };
+		3515F0CF1913542D00CEE2A6 /* tile6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3515F0CE1913542D00CEE2A6 /* tile6.jpg */; };
+		3515F0D5191355C400CEE2A6 /* tile12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3515F0D4191355C400CEE2A6 /* tile12.jpg */; };
 		3532DCE81911E20B006F10D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3532DCE71911E20B006F10D9 /* Foundation.framework */; };
 		3532DCEA1911E20B006F10D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3532DCE91911E20B006F10D9 /* CoreGraphics.framework */; };
 		3532DCEC1911E20B006F10D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3532DCEB1911E20B006F10D9 /* UIKit.framework */; };
@@ -21,6 +24,25 @@
 		3532DD091911E20B006F10D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3532DCEB1911E20B006F10D9 /* UIKit.framework */; };
 		3532DD111911E20B006F10D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3532DD0F1911E20B006F10D9 /* InfoPlist.strings */; };
 		3532DD131911E20B006F10D9 /* PirateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3532DD121911E20B006F10D9 /* PirateTests.m */; };
+		3532DD1E1911E272006F10D9 /* PFLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3532DD1D1911E272006F10D9 /* PFLTile.m */; };
+		3532DD221911E2BB006F10D9 /* PFLWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3532DD211911E2BB006F10D9 /* PFLWeapon.m */; };
+		3532DD251911E2C4006F10D9 /* PFLArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3532DD241911E2C4006F10D9 /* PFLArmor.m */; };
+		3532DD281911E2CD006F10D9 /* PFLCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3532DD271911E2CD006F10D9 /* PFLCharacter.m */; };
+		3532DD2B1911E2D3006F10D9 /* PFLBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 3532DD2A1911E2D3006F10D9 /* PFLBoss.m */; };
+		3532DD2F1911E2F9006F10D9 /* PFLFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3532DD2E1911E2F9006F10D9 /* PFLFactory.m */; };
+		3532DD311911EB53006F10D9 /* tile1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3532DD301911EB53006F10D9 /* tile1.jpg */; };
+		35901CE8191345CA008381A7 /* tile5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35901CE7191345CA008381A7 /* tile5.jpg */; };
+		35901CEE19134967008381A7 /* tile4.png in Resources */ = {isa = PBXBuildFile; fileRef = 35901CED19134967008381A7 /* tile4.png */; };
+		35901CF01913499E008381A7 /* tile2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35901CEF1913499E008381A7 /* tile2.jpg */; };
+		35901CF2191349C9008381A7 /* tile3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35901CF1191349C9008381A7 /* tile3.jpg */; };
+		35901CF619134A57008381A7 /* tile7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35901CF519134A57008381A7 /* tile7.jpg */; };
+		35901CF819134AA6008381A7 /* tile8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35901CF719134AA6008381A7 /* tile8.jpg */; };
+		35901CFA19134AC4008381A7 /* tile9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35901CF919134AC4008381A7 /* tile9.jpg */; };
+		35901CFE19134D2E008381A7 /* tile11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35901CFD19134D2E008381A7 /* tile11.jpg */; };
+		35BAA74A191307EB00F99E38 /* PFLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BAA749191307EB00F99E38 /* PFLItem.m */; };
+		35CEE0DE19158D0700C80904 /* treasure2.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CEE0DC19158D0700C80904 /* treasure2.png */; };
+		35CEE0DF19158D0700C80904 /* treasure1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35CEE0DD19158D0700C80904 /* treasure1.jpg */; };
+		35DBEF8F191493F5007706AB /* tombstone-you.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35DBEF8E191493F5007706AB /* tombstone-you.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3515F0CA1913539E00CEE2A6 /* tile10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile10.jpg; sourceTree = "<group>"; };
+		3515F0CE1913542D00CEE2A6 /* tile6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile6.jpg; sourceTree = "<group>"; };
+		3515F0D4191355C400CEE2A6 /* tile12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile12.jpg; sourceTree = "<group>"; };
 		3532DCE41911E20B006F10D9 /* Pirate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pirate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3532DCE71911E20B006F10D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3532DCE91911E20B006F10D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +78,32 @@
 		3532DD0E1911E20B006F10D9 /* PirateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PirateTests-Info.plist"; sourceTree = "<group>"; };
 		3532DD101911E20B006F10D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3532DD121911E20B006F10D9 /* PirateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PirateTests.m; sourceTree = "<group>"; };
+		3532DD1C1911E272006F10D9 /* PFLTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLTile.h; sourceTree = "<group>"; };
+		3532DD1D1911E272006F10D9 /* PFLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLTile.m; sourceTree = "<group>"; };
+		3532DD201911E2BB006F10D9 /* PFLWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLWeapon.h; sourceTree = "<group>"; };
+		3532DD211911E2BB006F10D9 /* PFLWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLWeapon.m; sourceTree = "<group>"; };
+		3532DD231911E2C4006F10D9 /* PFLArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLArmor.h; sourceTree = "<group>"; };
+		3532DD241911E2C4006F10D9 /* PFLArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLArmor.m; sourceTree = "<group>"; };
+		3532DD261911E2CD006F10D9 /* PFLCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLCharacter.h; sourceTree = "<group>"; };
+		3532DD271911E2CD006F10D9 /* PFLCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLCharacter.m; sourceTree = "<group>"; };
+		3532DD291911E2D3006F10D9 /* PFLBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLBoss.h; sourceTree = "<group>"; };
+		3532DD2A1911E2D3006F10D9 /* PFLBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLBoss.m; sourceTree = "<group>"; };
+		3532DD2D1911E2F9006F10D9 /* PFLFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLFactory.h; sourceTree = "<group>"; };
+		3532DD2E1911E2F9006F10D9 /* PFLFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLFactory.m; sourceTree = "<group>"; };
+		3532DD301911EB53006F10D9 /* tile1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile1.jpg; sourceTree = "<group>"; };
+		35901CE7191345CA008381A7 /* tile5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile5.jpg; sourceTree = "<group>"; };
+		35901CED19134967008381A7 /* tile4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile4.png; sourceTree = "<group>"; };
+		35901CEF1913499E008381A7 /* tile2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile2.jpg; sourceTree = "<group>"; };
+		35901CF1191349C9008381A7 /* tile3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile3.jpg; sourceTree = "<group>"; };
+		35901CF519134A57008381A7 /* tile7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile7.jpg; sourceTree = "<group>"; };
+		35901CF719134AA6008381A7 /* tile8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile8.jpg; sourceTree = "<group>"; };
+		35901CF919134AC4008381A7 /* tile9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile9.jpg; sourceTree = "<group>"; };
+		35901CFD19134D2E008381A7 /* tile11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile11.jpg; sourceTree = "<group>"; };
+		35BAA748191307EB00F99E38 /* PFLItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLItem.h; sourceTree = "<group>"; };
+		35BAA749191307EB00F99E38 /* PFLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLItem.m; sourceTree = "<group>"; };
+		35CEE0DC19158D0700C80904 /* treasure2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treasure2.png; sourceTree = "<group>"; };
+		35CEE0DD19158D0700C80904 /* treasure1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = treasure1.jpg; sourceTree = "<group>"; };
+		35DBEF8E191493F5007706AB /* tombstone-you.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tombstone-you.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +168,7 @@
 				3532DCF91911E20B006F10D9 /* Main.storyboard */,
 				3532DCFC1911E20B006F10D9 /* PFLViewController.h */,
 				3532DCFD1911E20B006F10D9 /* PFLViewController.m */,
+				3532DD1F1911E28E006F10D9 /* Model */,
 				3532DCFF1911E20B006F10D9 /* Images.xcassets */,
 				3532DCEE1911E20B006F10D9 /* Supporting Files */,
 			);
@@ -126,6 +178,21 @@
 		3532DCEE1911E20B006F10D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3532DD301911EB53006F10D9 /* tile1.jpg */,
+				35901CEF1913499E008381A7 /* tile2.jpg */,
+				35901CF1191349C9008381A7 /* tile3.jpg */,
+				35901CED19134967008381A7 /* tile4.png */,
+				35901CE7191345CA008381A7 /* tile5.jpg */,
+				3515F0CE1913542D00CEE2A6 /* tile6.jpg */,
+				35901CF519134A57008381A7 /* tile7.jpg */,
+				35901CF719134AA6008381A7 /* tile8.jpg */,
+				35901CF919134AC4008381A7 /* tile9.jpg */,
+				3515F0CA1913539E00CEE2A6 /* tile10.jpg */,
+				35901CFD19134D2E008381A7 /* tile11.jpg */,
+				3515F0D4191355C400CEE2A6 /* tile12.jpg */,
+				35DBEF8E191493F5007706AB /* tombstone-you.jpg */,
+				35CEE0DC19158D0700C80904 /* treasure2.png */,
+				35CEE0DD19158D0700C80904 /* treasure1.jpg */,
 				3532DCEF1911E20B006F10D9 /* Pirate-Info.plist */,
 				3532DCF01911E20B006F10D9 /* InfoPlist.strings */,
 				3532DCF31911E20B006F10D9 /* main.m */,
@@ -150,6 +217,36 @@
 				3532DD0F1911E20B006F10D9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3532DD1F1911E28E006F10D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3532DD2C1911E2E8006F10D9 /* Factory */,
+				3532DD1C1911E272006F10D9 /* PFLTile.h */,
+				3532DD1D1911E272006F10D9 /* PFLTile.m */,
+				3532DD261911E2CD006F10D9 /* PFLCharacter.h */,
+				3532DD271911E2CD006F10D9 /* PFLCharacter.m */,
+				3532DD201911E2BB006F10D9 /* PFLWeapon.h */,
+				3532DD211911E2BB006F10D9 /* PFLWeapon.m */,
+				3532DD231911E2C4006F10D9 /* PFLArmor.h */,
+				3532DD241911E2C4006F10D9 /* PFLArmor.m */,
+				35BAA748191307EB00F99E38 /* PFLItem.h */,
+				35BAA749191307EB00F99E38 /* PFLItem.m */,
+				3532DD291911E2D3006F10D9 /* PFLBoss.h */,
+				3532DD2A1911E2D3006F10D9 /* PFLBoss.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3532DD2C1911E2E8006F10D9 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				3532DD2D1911E2F9006F10D9 /* PFLFactory.h */,
+				3532DD2E1911E2F9006F10D9 /* PFLFactory.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +326,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35901CE8191345CA008381A7 /* tile5.jpg in Resources */,
+				35901CF619134A57008381A7 /* tile7.jpg in Resources */,
+				35901CF2191349C9008381A7 /* tile3.jpg in Resources */,
+				3515F0CB1913539E00CEE2A6 /* tile10.jpg in Resources */,
+				35901CF819134AA6008381A7 /* tile8.jpg in Resources */,
+				35DBEF8F191493F5007706AB /* tombstone-you.jpg in Resources */,
 				3532DD001911E20B006F10D9 /* Images.xcassets in Resources */,
+				35901CEE19134967008381A7 /* tile4.png in Resources */,
+				35901CFE19134D2E008381A7 /* tile11.jpg in Resources */,
+				3515F0CF1913542D00CEE2A6 /* tile6.jpg in Resources */,
+				35901CF01913499E008381A7 /* tile2.jpg in Resources */,
 				3532DCF21911E20B006F10D9 /* InfoPlist.strings in Resources */,
+				35CEE0DF19158D0700C80904 /* treasure1.jpg in Resources */,
+				3532DD311911EB53006F10D9 /* tile1.jpg in Resources */,
+				35CEE0DE19158D0700C80904 /* treasure2.png in Resources */,
 				3532DCFB1911E20B006F10D9 /* Main.storyboard in Resources */,
+				3515F0D5191355C400CEE2A6 /* tile12.jpg in Resources */,
+				35901CFA19134AC4008381A7 /* tile9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +362,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3532DD281911E2CD006F10D9 /* PFLCharacter.m in Sources */,
+				3532DD1E1911E272006F10D9 /* PFLTile.m in Sources */,
+				3532DD221911E2BB006F10D9 /* PFLWeapon.m in Sources */,
+				35BAA74A191307EB00F99E38 /* PFLItem.m in Sources */,
+				3532DD2F1911E2F9006F10D9 /* PFLFactory.m in Sources */,
 				3532DCFE1911E20B006F10D9 /* PFLViewController.m in Sources */,
 				3532DCF41911E20B006F10D9 /* main.m in Sources */,
+				3532DD2B1911E2D3006F10D9 /* PFLBoss.m in Sources */,
+				3532DD251911E2C4006F10D9 /* PFLArmor.m in Sources */,
 				3532DCF81911E20B006F10D9 /* PFLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +499,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pirate/Pirate-Prefix.pch";
 				INFOPLIST_FILE = "Pirate/Pirate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +513,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pirate/Pirate-Prefix.pch";
 				INFOPLIST_FILE = "Pirate/Pirate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +578,7 @@
 				3532DD181911E20B006F10D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3532DD191911E20B006F10D9 /* Build configuration list for PBXNativeTarget "PirateTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +587,7 @@
 				3532DD1B1911E20B006F10D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
