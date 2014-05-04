@@ -17,7 +17,7 @@
 
 @implementation PFLViewController
 
-
+#pragma mark - View Load and Game Initialization
 
 - (void)viewDidLoad
 {
@@ -29,17 +29,31 @@
 }
 
 
-
 - (void)initializeGame{
     PFLFactory *factory = [[PFLFactory alloc] init];
     self.tiles = [factory tiles];
     self.character = [factory character];
+    
     self.currentPoint = CGPointMake(0, 0);
     NSString *charName = [self getName];
     self.characterStatsDisplay.text = [NSString stringWithFormat:@"%@'s Stats", charName];
 
     [self initializeMap];
     [self updateTile];
+}
+
+
+
+// COULD MAP CREATION BE MOVED INTO FACTORY?
+- (void)initializeMap{
+    NSArray *mapCol1 = [[NSArray alloc] initWithObjects:self.map1, self.map2, self.map3, nil];
+    NSArray *mapCol2 = [[NSArray alloc] initWithObjects:self.map4, self.map5, self.map6, nil];
+    NSArray *mapCol3 = [[NSArray alloc] initWithObjects:self.map7, self.map8, self.map9, nil];
+    NSArray *mapCol4 = [[NSArray alloc] initWithObjects:self.map10, self.map11, self.map12, nil];
+    
+    NSArray *map = [[NSArray alloc] initWithObjects:mapCol1, mapCol2, mapCol3, mapCol4, nil];
+    self.map = map;
+    
 }
 
 
@@ -56,6 +70,8 @@
     
 }
 
+
+#pragma mark - Updating Tile & Map
 
 
                 //internal helper method to update tile
@@ -108,20 +124,6 @@
 }
 
 
-
-- (void)initializeMap{
-    NSArray *mapCol1 = [[NSArray alloc] initWithObjects:self.map1, self.map2, self.map3, nil];
-    NSArray *mapCol2 = [[NSArray alloc] initWithObjects:self.map4, self.map5, self.map6, nil];
-    NSArray *mapCol3 = [[NSArray alloc] initWithObjects:self.map7, self.map8, self.map9, nil];
-    NSArray *mapCol4 = [[NSArray alloc] initWithObjects:self.map10, self.map11, self.map12, nil];
-    
-    NSArray *map = [[NSArray alloc] initWithObjects:mapCol1, mapCol2, mapCol3, mapCol4, nil];
-    self.map = map;
-
-}
-
-
-
 - (void)updateMap{
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 3; j++){
@@ -135,19 +137,7 @@
 
 
 
-- (void)dead
-{    
-    [self.actionButtonText setTitle:@"Dude, you're dead." forState:UIControlStateNormal];
-    self.actionButtonText.enabled = NO;
-    self.northButton.hidden = YES;
-    self.southButton.hidden = YES;
-    self.eastButton.hidden = YES;
-    self.westButton.hidden = YES;
-    self.storyDisplay.text = @"I guess some people weren't meant to be adventurers... :-(";
-    self.backgroundImageView.image = [UIImage imageNamed:@"tombstone-you.jpg"];
-}
-
-
+#pragma mark - Direction & Reset & (Toggle) Map Buttons Pressed
 
             // Removed boundary checks because hidden buttons now cover that
 - (IBAction)northButtonPressed:(UIButton *)sender {
@@ -175,8 +165,6 @@
         [self initializeGame];
 }
 
-
-
             // toggleButton now used to "Show Map" and "Hide Map" instead of "Toggle Map"
 - (IBAction)toggleButtonPressed:(UIButton *)sender {
     if (self.map1.hidden) {
@@ -198,7 +186,7 @@
     }
 }
 
-
+#pragma mark - Final Fight with Boss + Death
 
 - (void) doBoss
 {
@@ -227,6 +215,21 @@
 
 }
 
+
+- (void)dead
+{
+    [self.actionButtonText setTitle:@"Dude, you're dead." forState:UIControlStateNormal];
+    self.actionButtonText.enabled = NO;
+    self.northButton.hidden = YES;
+    self.southButton.hidden = YES;
+    self.eastButton.hidden = YES;
+    self.westButton.hidden = YES;
+    self.storyDisplay.text = @"I guess some people weren't meant to be adventurers... :-(";
+    self.backgroundImageView.image = [UIImage imageNamed:@"tombstone-you.jpg"];
+}
+
+
+#pragma mark - Action Button Handling Code
 
 - (IBAction)actionButtonPressed:(UIButton *)sender
 {
@@ -294,6 +297,8 @@
         }
     }
 }
+
+#pragma mark - Memory Warning
 
 
 - (void)didReceiveMemoryWarning

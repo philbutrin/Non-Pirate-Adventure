@@ -210,7 +210,7 @@
     tile11.actionCount = 1;
     tile11.alt_story = @"Are you alive or dead?";
     tile11.alt_actionButtonName = @"Fight The Boss.";
-    tile11.alt_alertView = [[UIAlertView alloc] initWithTitle:@"!?!?!?!" message:@"As you back away from The Boss, something starts moving in your backpack. Suddenly, the orb you picked up earlier bursts out of its case and out of your backpack and it hovers over you, bathing you in a white light. The Boss freezes in his tracks, giving you time to strike at him with your <weapon>. With one blow, you strike him down." delegate:nil cancelButtonTitle:@"Hurrah!" otherButtonTitles: nil];
+    tile11.alt_alertView = [[UIAlertView alloc] initWithTitle:@"!?!?!?!" message:@"As you back away from The Boss, you feel something moving in your backpack. Suddenly, the orb you picked up earlier bursts out of its case and out of your backpack and it hovers over you, bathing you in a white light. The Boss freezes in his tracks, giving you time to strike at him with your <weapon>. With one blow, you strike him down." delegate:nil cancelButtonTitle:@"Hurrah!" otherButtonTitles: nil];
 
 
     
