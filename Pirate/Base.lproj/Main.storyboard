@@ -82,7 +82,7 @@
                                 <color key="backgroundColor" red="1" green="0.92973643891541713" blue="0.7211600769001314" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view alpha="0.84999999999999987" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BRC-uv-f2l">
-                                <rect key="frame" x="20" y="144" width="280" height="82"/>
+                                <rect key="frame" x="20" y="298" width="280" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Action" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dd-ms-7Qi">
@@ -113,7 +113,7 @@
                                 <color key="backgroundColor" red="0.92444378396739135" green="0.85988275004451786" blue="0.66619964827589739" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view alpha="0.84999999999999987" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HgL-d7-1aB">
-                                <rect key="frame" x="20" y="233" width="280" height="145"/>
+                                <rect key="frame" x="20" y="145" width="280" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Story" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRM-6i-cPs">
