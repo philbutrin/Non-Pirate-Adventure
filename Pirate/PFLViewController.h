@@ -31,11 +31,13 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *storyDisplay;
 
+// navigation buttons
 @property (strong, nonatomic) IBOutlet UIButton *northButton;
 @property (strong, nonatomic) IBOutlet UIButton *eastButton;
 @property (strong, nonatomic) IBOutlet UIButton *southButton;
 @property (strong, nonatomic) IBOutlet UIButton *westButton;
 
+// map buttons
 @property (strong, nonatomic) IBOutlet UIButton *map1;
 @property (strong, nonatomic) IBOutlet UIButton *map2;
 @property (strong, nonatomic) IBOutlet UIButton *map3;
@@ -51,6 +53,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *toggleButton;
 
 
+// toggle has now changed to "show map" & "hide map"
 - (IBAction)toggleButtonPressed:(UIButton *)sender;
 
 - (IBAction)actionButtonPressed:(UIButton *)sender;

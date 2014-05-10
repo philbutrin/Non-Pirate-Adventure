@@ -86,7 +86,7 @@
     tile4.actionCount = 1;
     tile4.alt_story = @"The trees are so dense here that the sun barely shines through and all sound is muted.  All you see around you are trees and darkness.";
     tile4.alt_actionButtonName = @"Do something.";
-    tile4.alt_alertView = [[UIAlertView alloc] initWithTitle:@"Nope." message:@"Nothing to do here." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    tile4.alt_alertView = [[UIAlertView alloc] initWithTitle:@"Nope." message:@"Nothing left to do here." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
 
     
     PFLTile *tile5 = [[PFLTile alloc] init];

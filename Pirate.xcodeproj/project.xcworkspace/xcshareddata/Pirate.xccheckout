@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC0247C5-C8A6-4A50-B37C-B01C4E8968F7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pirate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8274BE2E-E2F6-4098-B12B-AE45A639BD2E</key>
+		<string>https://github.com/philbutrin/Non-Pirate-Adventure.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pirate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8274BE2E-E2F6-4098-B12B-AE45A639BD2E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/philbutrin/Non-Pirate-Adventure.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8274BE2E-E2F6-4098-B12B-AE45A639BD2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8274BE2E-E2F6-4098-B12B-AE45A639BD2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pirate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
